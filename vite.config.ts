@@ -36,8 +36,8 @@ export default defineConfig({
   },
   root: __dirname,
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
-    emptyOutDir: true,
+    outDir: "dist",
+    sourcemap: false,
   },
 });
 
